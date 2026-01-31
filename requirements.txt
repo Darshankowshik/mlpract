@@ -1,0 +1,11 @@
+PyYAML==6.0.1
+
+mlflow
+scikit-learn
+pandas
+numpy
+dvc
+dvc[s3]
+kagglehub
+jupyter
+docker
