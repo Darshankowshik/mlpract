@@ -8,5 +8,6 @@ git commit -m "Configure MinIO as DVC remote"
 dvc remote list
 dvc add data/data.txt
 dvc add data/price_of_healthy_diet_clean.csv 
-dvc push
+dvc push -r origin
 dvc checkout
+dvc push -r origin
